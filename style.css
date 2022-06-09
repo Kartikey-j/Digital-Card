@@ -1,0 +1,58 @@
+body{
+   background-color: #23252C ;
+}
+
+
+div#digital-card {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    background-color: rgb(242, 246, 250);
+}
+
+p{
+    padding: 0px 15px;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+div#social{
+    padding: 10px 10px;
+    background-color: rgb(221, 220, 220);
+    border-radius: 0px 0px 20px 20px;
+}
+
+h1{
+    margin-bottom: 4px;
+}
+
+h3{
+    text-align: left;
+    padding: 0px 15px;
+}
+
+h4{
+    margin: 0px 0px;
+    color: rgb(205, 135, 4);
+}
+
+h5{
+    margin-top: 4px;
+}
+
+h5 a{
+    color: rgb(121, 121, 121);
+}
+
+button{
+    font-size: 20px;
+    font-weight: 500;
+}
