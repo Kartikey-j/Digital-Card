@@ -15,8 +15,10 @@ div#digital-card {
 }
 
 p{
-    padding: 0px 15px;
-
+    padding: 15px 15px;
+    color: #fff;
+    margin: 0px 0px;
+    
 }
 
 a{
@@ -31,16 +33,24 @@ div#social{
 }
 
 h1{
-    margin-bottom: 4px;
+    padding-bottom: 4px;
+    padding-top: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: rgb(212, 212, 212);
+    font-family: 'Times New Roman', Times, serif;
 }
 
 h3{
     text-align: left;
-    padding: 0px 15px;
+    padding: 15px 15px;
+    margin: 0px 5px;
+    color: rgb(212, 212, 212);
 }
 
 h4{
     margin: 0px 0px;
+    padding: 5px 0px;
     color: rgb(205, 135, 4);
 }
 
@@ -49,10 +59,50 @@ h5{
 }
 
 h5 a{
-    color: rgb(121, 121, 121);
+    color: rgb(217, 204, 204);
 }
 
 button{
     font-size: 20px;
     font-weight: 500;
+}
+
+#profile-img{
+    border-radius: 18px 18px 0px 0px;
+}
+
+#about,
+#digital-card,
+#name-role,
+#interest,
+#cta-button,
+button{
+    background-color: #5c6278;
+    margin-top: 0px;
+}
+
+h5{
+    margin: 0px 0px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+button{
+    width: 40%;
+    margin: 0px 10px;
+    padding: 10px 5px;
+    border-radius: 10px;
+    border: 0px solid;
+}
+
+button#email{
+    background-color: #fff;
+}
+
+button#linkedin{
+    background-color: rgb(27, 99, 255);
+}
+
+button#linkedin a{
+    color: #fff;
 }
